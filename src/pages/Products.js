@@ -17,7 +17,7 @@ const Products = () => (
           and tidy.
         </p>
       </Alert>
-      <Share url="https%3A%2F%2Flocal-ogp.firebaseapp.com%2Fsite%2F3FlAZuy4VoimmVqVm8z0" />      
+      <Share />
     </div>
 )
 
