@@ -13,7 +13,7 @@ app.get('/', function(request, response) {
     }
     data = data.replace(/\$OG_TITLE/g, 'Home Page');
     data = data.replace(/\$OG_DESCRIPTION/g, "Home page description");
-    data = data.replace(/\$OG_URL/g, "https://local-ogp.firebaseapp.com/site/3FlAZuy4VoimmVqVm8z0");
+    data = data.replace(/\$OG_URL/g, "https://react-sharing.herokuapp.com/");
     result = data.replace(/\$OG_IMAGE/g, 'https://i.graphicmama.com/blog/wp-content/uploads/2016/12/02071926/welcome-home.png');
     response.send(result);
   });
@@ -28,7 +28,7 @@ app.get('/story', function(request, response) {
     }
     data = data.replace(/\$OG_TITLE/g, 'Stories Page');
     data = data.replace(/\$OG_DESCRIPTION/g, "Stories page description");
-    data = data.replace(/\$OG_URL/g, "https://local-ogp.firebaseapp.com/site/3FlAZuy4VoimmVqVm8z0");
+    data = data.replace(/\$OG_URL/g, "https://react-sharing.herokuapp.com/story");
     result = data.replace(/\$OG_IMAGE/g, 'https://static.rfstat.com/bloggers_folders/user_2591565/my_media/b6cfeb7c-c8f1-4861-8f41-3263e47a341d.jpg');
     
     response.send(result);
@@ -44,7 +44,7 @@ app.get('/products', function(request, response) {
     }
     data = data.replace(/\$OG_TITLE/g, 'Products Page');
     data = data.replace(/\$OG_DESCRIPTION/g, "Products page description");
-    data = data.replace(/\$OG_URL/g, "https://local-ogp.firebaseapp.com/site/3FlAZuy4VoimmVqVm8z0");
+    data = data.replace(/\$OG_URL/g, "https://react-sharing.herokuapp.com/products");
     result = data.replace(/\$OG_IMAGE/g, 'https://i.graphicmama.com/blog/wp-content/uploads/2016/11/08104828/181.jpg');
     response.send(result);
   });
